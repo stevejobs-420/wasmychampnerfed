@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0e6d2"/>
+      <stop offset="0.45" stop-color="#c8aa6e"/>
+      <stop offset="1" stop-color="#785a28"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff8c9b"/>
+      <stop offset="1" stop-color="#b91f35"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="13" fill="#010a13"/>
+  <polygon points="32,7 53.65,19.5 53.65,44.5 32,57 10.35,44.5 10.35,19.5"
+           fill="rgba(10,50,60,0.25)" stroke="url(#gold)" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="21,24 43,24 32,43" fill="url(#red)"/>
+</svg>
