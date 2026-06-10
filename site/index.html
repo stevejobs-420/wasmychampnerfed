@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Was My Champ Nerfed?</title>
+  <meta name="description" content="Type a League of Legends champion and see the last time they were buffed, nerfed, or adjusted — with the actual patch note details." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Alegreya:ital,wght@0,400;0,500;1,400;1,500&family=Alegreya+Sans:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="atmosphere" aria-hidden="true"></div>
+  <main>
+    <header class="reveal">
+      <div class="crest" aria-hidden="true">◆</div>
+      <h1><a class="home-link" href="./">Was my champ <em>nerfed</em>?</a></h1>
+      <p class="tagline reveal d2">Returning from the Rift's long winter? Speak a name, summoner.</p>
+    </header>
+
+    <div class="search-wrap reveal d3">
+      <div class="search-frame">
+        <input
+          id="search"
+          type="text"
+          placeholder="e.g. Wukong, Kai'Sa, Lee Sin…"
+          autocomplete="off"
+          spellcheck="false"
+          autofocus
+        />
+      </div>
+      <ul id="suggestions" hidden></ul>
+    </div>
+
+    <section id="result" hidden></section>
+
+    <footer class="reveal d4">
+      <div class="ornament" aria-hidden="true"><span></span>◆<span></span></div>
+      <p id="meta"></p>
+      <p>
+        Unofficial fan project. Data from the official
+        <a href="https://www.leagueoflegends.com/en-us/news/tags/patch-notes/" target="_blank" rel="noopener">patch notes</a>;
+        art from Riot's Data Dragon. Not endorsed by Riot Games.
+      </p>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

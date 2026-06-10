@@ -1,0 +1,19 @@
+{
+  "name": "wasmychampnerfed",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "When was a LoL champion last buffed/nerfed? Scrapes official patch notes into a static dataset.",
+  "scripts": {
+    "ingest": "tsx src/ingest.ts",
+    "ingest:full": "tsx src/ingest.ts --full",
+    "typecheck": "tsc --noEmit",
+    "serve": "npx serve site"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "cheerio": "^1.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
